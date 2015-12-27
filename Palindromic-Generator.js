@@ -16,3 +16,21 @@ function palindromeNumberGenerator( value ){
   }
 }
 palindromeNumberGenerator( 15 );
+
+// function palindromic(number, steps) {
+//   var returnObj = {};
+//   steps = steps || '0';
+
+//   // check if number passed in is palindrome
+//   var numberStrReversed = number.toString().split("").reverse().join("");
+//   if (number.toString() === numberStrReversed) {
+//     returnObj.value = number;
+//     returnObj.steps = parseInt(steps);
+
+//     return returnObj;
+//   } else {
+//     var newNumber = number + parseInt(numberStrReversed);
+//     var newStep = parseInt(steps) + 1 + '';
+//     return palindromic(newNumber, newStep);
+//   }
+// }
